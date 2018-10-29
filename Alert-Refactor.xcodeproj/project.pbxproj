@@ -12,6 +12,9 @@
 		E2E0D30A21736A6F00BF1B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E0D30821736A6F00BF1B77 /* Main.storyboard */; };
 		E2E0D30C21736A7000BF1B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E0D30B21736A7000BF1B77 /* Assets.xcassets */; };
 		E2E0D30F21736A7000BF1B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E0D30D21736A7000BF1B77 /* LaunchScreen.storyboard */; };
+		E2E0D31721736DDB00BF1B77 /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0D31621736DDB00BF1B77 /* AlertButton.swift */; };
+		E2E0D31921736F7000BF1B77 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0D31821736F7000BF1B77 /* Constants.swift */; };
+		E2E0D31B2173722C00BF1B77 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0D31A2173722C00BF1B77 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E2E0D30B21736A7000BF1B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E0D30E21736A7000BF1B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2E0D31021736A7000BF1B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E0D31621736DDB00BF1B77 /* AlertButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
+		E2E0D31821736F7000BF1B77 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E2E0D31A2173722C00BF1B77 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				E2E0D30B21736A7000BF1B77 /* Assets.xcassets */,
 				E2E0D30D21736A7000BF1B77 /* LaunchScreen.storyboard */,
 				E2E0D31021736A7000BF1B77 /* Info.plist */,
+				E2E0D31621736DDB00BF1B77 /* AlertButton.swift */,
+				E2E0D31821736F7000BF1B77 /* Constants.swift */,
+				E2E0D31A2173722C00BF1B77 /* Alert.swift */,
 			);
 			path = "Alert-Refactor";
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			files = (
 				E2E0D30721736A6F00BF1B77 /* ViewController.swift in Sources */,
 				E2E0D30521736A6F00BF1B77 /* AppDelegate.swift in Sources */,
+				E2E0D31721736DDB00BF1B77 /* AlertButton.swift in Sources */,
+				E2E0D31B2173722C00BF1B77 /* Alert.swift in Sources */,
+				E2E0D31921736F7000BF1B77 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
